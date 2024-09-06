@@ -1,0 +1,7 @@
+[2024-09-06 16:08:16] test.py(122) : DEBUG_MODE: False
+[2024-09-06 16:08:16] test.py(123) : USE_CUDA: True, CUDA_DEVICE_NUM: 0
+[2024-09-06 16:08:16] test.py(124) : env_params{'problem_size': 100, 'pomo_size': 100}
+[2024-09-06 16:08:16] test.py(124) : model_params{'pool_size': 16, 'top_k': 1, 'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'encoder_layer_num': 6, 'qkv_dim': 16, 'head_num': 8, 'logit_clipping': 10, 'ff_hidden_dim': 512, 'eval_type': 'argmax'}
+[2024-09-06 16:08:16] test.py(124) : tester_params{'use_cuda': True, 'cuda_device_num': 0, 'model_load': {'path': '../Pretrained', 'epoch': 10000}, 'test_episodes': 1000, 'test_batch_size': 25, 'augmentation_enable': True, 'aug_factor': 8, 'aug_batch_size': 25, 'test_set_path': '../Instances/TestingDistributions/vrp_cluster50_10000.pkl', 'test_set_opt_sol_path': '../Instances/Size_Distribution/hgs/cvrp200_rotationoffset0n1000-hgs.pkl'}
+[2024-09-06 16:08:16] test.py(124) : fine_tune_params{'enable': False, 'fine_tune_episodes': 1000, 'k': 10, 'fine_tune_batch_size': 10, 'augmentation_enable': True, 'optimizer': {'lr': 1e-05, 'weight_decay': 1e-06}}
+[2024-09-06 16:08:16] test.py(124) : logger_params{'log_file': {'desc': 'test_cvrp100', 'filename': 'log.txt', 'filepath': './result/20240906_160813_test_cvrp100'}}

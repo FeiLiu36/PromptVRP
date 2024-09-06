@@ -1,0 +1,50 @@
+[2024-09-06 16:51:44] train.py(146) : DEBUG_MODE: False
+[2024-09-06 16:51:44] train.py(147) : USE_CUDA: True, CUDA_DEVICE_NUM: 0
+[2024-09-06 16:51:44] train.py(148) : env_params{'problem_type': 'CVRP', 'problem_size': 50, 'pomo_size': 50}
+[2024-09-06 16:51:44] train.py(148) : model_params{'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'encoder_layer_num': 6, 'qkv_dim': 16, 'head_num': 8, 'logit_clipping': 10, 'ff_hidden_dim': 512, 'eval_type': 'argmax'}
+[2024-09-06 16:51:44] train.py(148) : optimizer_params{'optimizer': {'lr': 0.01, 'weight_decay': 1e-06}, 'scheduler': {'milestones': [1000, 2000, 8000], 'gamma': 0.1}}
+[2024-09-06 16:51:44] train.py(148) : trainer_params{'use_cuda': True, 'cuda_device_num': 0, 'epochs': 10000, 'train_episodes': 1000, 'train_batch_size': 16, 'prev_model_path': None, 'logging': {'model_save_interval': 100, 'img_save_interval': 100, 'log_image_params_1': {'json_foldername': 'log_image_style', 'filename': 'style_OVRP_50.json'}, 'log_image_params_2': {'json_foldername': 'log_image_style', 'filename': 'style_loss_1.json'}}, 'model_load': {'enable': True, 'path': './Frozen', 'epoch': 10000}}
+[2024-09-06 16:51:44] train.py(148) : meta_params{'data_type': 'size_distribution'}
+[2024-09-06 16:51:44] train.py(148) : logger_params{'log_file': {'desc': 'train_promptVRP', 'filename': 'run_log', 'filepath': './result/20240906_165141_train_promptVRP'}}
+[2024-09-06 16:51:46] VRPTrainer.py(99) : =================================================================
+[2024-09-06 16:51:47] VRPTrainer.py(198) : Epoch   1: Train  64/1000(6.4%)  Score: 16.5054,  Loss: -4.4974,  Sim: 1.0000
+[2024-09-06 16:51:47] VRPTrainer.py(198) : Epoch   1: Train 128/1000(12.8%)  Score: 16.5924,  Loss: -4.7617,  Sim: 1.0000
+[2024-09-06 16:51:47] VRPTrainer.py(198) : Epoch   1: Train 192/1000(19.2%)  Score: 16.6949,  Loss: -4.8371,  Sim: 1.0000
+[2024-09-06 16:51:48] VRPTrainer.py(198) : Epoch   1: Train 256/1000(25.6%)  Score: 16.7255,  Loss: -4.9332,  Sim: 1.0000
+[2024-09-06 16:51:48] VRPTrainer.py(198) : Epoch   1: Train 320/1000(32.0%)  Score: 16.5601,  Loss: -4.9202,  Sim: 1.0000
+[2024-09-06 16:51:48] VRPTrainer.py(198) : Epoch   1: Train 384/1000(38.4%)  Score: 16.3816,  Loss: -4.9834,  Sim: 1.0000
+[2024-09-06 16:51:48] VRPTrainer.py(198) : Epoch   1: Train 448/1000(44.8%)  Score: 16.1372,  Loss: -5.0504,  Sim: 1.0000
+[2024-09-06 16:51:49] VRPTrainer.py(198) : Epoch   1: Train 512/1000(51.2%)  Score: 15.9112,  Loss: -5.0598,  Sim: 1.0000
+[2024-09-06 16:51:49] VRPTrainer.py(198) : Epoch   1: Train 576/1000(57.6%)  Score: 15.7129,  Loss: -5.1171,  Sim: 1.0000
+[2024-09-06 16:51:49] VRPTrainer.py(198) : Epoch   1: Train 640/1000(64.0%)  Score: 15.5636,  Loss: -5.0864,  Sim: 1.0000
+[2024-09-06 16:51:51] VRPTrainer.py(203) : Epoch   1: Train (100%)  Score: 14.6720,  Loss: -4.8903,  Sim: 1.0000
+[2024-09-06 16:51:51] VRPTrainer.py(113) : Epoch   1/10000: Time Est.: Elapsed[0.07m], Remain[12.30h]
+[2024-09-06 16:51:51] VRPTrainer.py(99) : =================================================================
+[2024-09-06 16:51:55] VRPTrainer.py(203) : Epoch   2: Train (100%)  Score: 14.6879,  Loss: -5.6750,  Sim: 1.0000
+[2024-09-06 16:51:55] VRPTrainer.py(113) : Epoch   2/10000: Time Est.: Elapsed[0.15m], Remain[12.64h]
+[2024-09-06 16:51:55] VRPTrainer.py(122) : Saving log_image
+[2024-09-06 16:51:56] VRPTrainer.py(99) : =================================================================
+[2024-09-06 16:52:01] VRPTrainer.py(203) : Epoch   3: Train (100%)  Score: 13.5425,  Loss: -7.9120,  Sim: 1.0000
+[2024-09-06 16:52:01] VRPTrainer.py(113) : Epoch   3/10000: Time Est.: Elapsed[0.24m], Remain[13.43h]
+[2024-09-06 16:52:01] VRPTrainer.py(122) : Saving log_image
+[2024-09-06 16:52:01] VRPTrainer.py(99) : =================================================================
+[2024-09-06 16:52:06] VRPTrainer.py(203) : Epoch   4: Train (100%)  Score: 12.5548,  Loss: -7.0168,  Sim: 1.0000
+[2024-09-06 16:52:06] VRPTrainer.py(113) : Epoch   4/10000: Time Est.: Elapsed[0.33m], Remain[13.55h]
+[2024-09-06 16:52:06] VRPTrainer.py(122) : Saving log_image
+[2024-09-06 16:52:06] VRPTrainer.py(99) : =================================================================
+[2024-09-06 16:52:11] VRPTrainer.py(203) : Epoch   5: Train (100%)  Score: 10.4924,  Loss: -1.2204,  Sim: 1.0000
+[2024-09-06 16:52:11] VRPTrainer.py(113) : Epoch   5/10000: Time Est.: Elapsed[0.41m], Remain[13.62h]
+[2024-09-06 16:52:11] VRPTrainer.py(122) : Saving log_image
+[2024-09-06 16:52:11] VRPTrainer.py(99) : =================================================================
+[2024-09-06 16:52:16] VRPTrainer.py(203) : Epoch   6: Train (100%)  Score: 10.3215,  Loss: -2.0950,  Sim: 1.0000
+[2024-09-06 16:52:16] VRPTrainer.py(113) : Epoch   6/10000: Time Est.: Elapsed[0.49m], Remain[13.70h]
+[2024-09-06 16:52:16] VRPTrainer.py(122) : Saving log_image
+[2024-09-06 16:52:16] VRPTrainer.py(99) : =================================================================
+[2024-09-06 16:52:21] VRPTrainer.py(203) : Epoch   7: Train (100%)  Score: 10.1614,  Loss: -2.6638,  Sim: 1.0000
+[2024-09-06 16:52:21] VRPTrainer.py(113) : Epoch   7/10000: Time Est.: Elapsed[0.58m], Remain[13.76h]
+[2024-09-06 16:52:21] VRPTrainer.py(122) : Saving log_image
+[2024-09-06 16:52:21] VRPTrainer.py(99) : =================================================================
+[2024-09-06 16:52:26] VRPTrainer.py(203) : Epoch   8: Train (100%)  Score: 10.2542,  Loss: -0.7297,  Sim: 1.0000
+[2024-09-06 16:52:26] VRPTrainer.py(113) : Epoch   8/10000: Time Est.: Elapsed[0.66m], Remain[13.84h]
+[2024-09-06 16:52:26] VRPTrainer.py(122) : Saving log_image
+[2024-09-06 16:52:27] VRPTrainer.py(99) : =================================================================

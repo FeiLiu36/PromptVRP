@@ -1,0 +1,14 @@
+[2024-09-06 16:46:14] test_cvrplib.py(162) : DEBUG_MODE: False
+[2024-09-06 16:46:14] test_cvrplib.py(163) : USE_CUDA: True, CUDA_DEVICE_NUM: 0
+[2024-09-06 16:46:14] test_cvrplib.py(164) : env_params{'problem_size': 50, 'pomo_size': 50}
+[2024-09-06 16:46:14] test_cvrplib.py(164) : model_params{'pool_size': 16, 'top_k': 1, 'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'encoder_layer_num': 6, 'qkv_dim': 16, 'head_num': 8, 'logit_clipping': 10, 'ff_hidden_dim': 512, 'eval_type': 'argmax'}
+[2024-09-06 16:46:14] test_cvrplib.py(164) : tester_params{'use_cuda': True, 'cuda_device_num': 0, 'model_load': {'path': '../../pretrained_prompt/p16', 'epoch': 10000}, 'test_episodes': 1000, 'test_batch_size': 25, 'augmentation_enable': True, 'aug_factor': 8, 'aug_batch_size': 25, 'test_set_path': '../../Instances/TrainingDistributions/cvrp200_gaussian_mixture_50_7.pkl'}
+[2024-09-06 16:46:14] test_cvrplib.py(164) : fine_tune_params{'enable': False, 'fine_tune_episodes': 1000, 'k': 10, 'fine_tune_batch_size': 10, 'augmentation_enable': True, 'optimizer': {'lr': 1e-05, 'weight_decay': 1e-06}}
+[2024-09-06 16:46:14] test_cvrplib.py(164) : logger_params{'log_file': {'desc': 'test_cvrp100', 'filename': 'log.txt', 'filepath': './result/20240906_164611_test_cvrp100'}}
+[2024-09-06 16:46:14] test_cvrplib.py(162) : DEBUG_MODE: False
+[2024-09-06 16:46:14] test_cvrplib.py(163) : USE_CUDA: True, CUDA_DEVICE_NUM: 0
+[2024-09-06 16:46:14] test_cvrplib.py(164) : env_params{'problem_size': 50, 'pomo_size': 50}
+[2024-09-06 16:46:14] test_cvrplib.py(164) : model_params{'pool_size': 16, 'top_k': 1, 'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'encoder_layer_num': 6, 'qkv_dim': 16, 'head_num': 8, 'logit_clipping': 10, 'ff_hidden_dim': 512, 'eval_type': 'argmax'}
+[2024-09-06 16:46:14] test_cvrplib.py(164) : tester_params{'use_cuda': True, 'cuda_device_num': 0, 'model_load': {'path': '../../pretrained_prompt/p16', 'epoch': 10000}, 'test_episodes': 1000, 'test_batch_size': 25, 'augmentation_enable': True, 'aug_factor': 8, 'aug_batch_size': 25, 'test_set_path': '../../Instances/TrainingDistributions/cvrp200_gaussian_mixture_50_7.pkl'}
+[2024-09-06 16:46:14] test_cvrplib.py(164) : fine_tune_params{'enable': False, 'fine_tune_episodes': 1000, 'k': 10, 'fine_tune_batch_size': 10, 'augmentation_enable': True, 'optimizer': {'lr': 1e-05, 'weight_decay': 1e-06}}
+[2024-09-06 16:46:14] test_cvrplib.py(164) : logger_params{'log_file': {'desc': 'test_cvrp100', 'filename': 'log.txt', 'filepath': './result/20240906_164611_test_cvrp100'}}

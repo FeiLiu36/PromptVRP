@@ -1,0 +1,31 @@
+[2024-09-06 16:30:06] test.py(122) : DEBUG_MODE: False
+[2024-09-06 16:30:06] test.py(123) : USE_CUDA: True, CUDA_DEVICE_NUM: 0
+[2024-09-06 16:30:06] test.py(124) : env_params{'problem_size': 50, 'pomo_size': 50}
+[2024-09-06 16:30:06] test.py(124) : model_params{'pool_size': 16, 'top_k': 8, 'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'encoder_layer_num': 6, 'qkv_dim': 16, 'head_num': 8, 'logit_clipping': 10, 'ff_hidden_dim': 512, 'eval_type': 'argmax'}
+[2024-09-06 16:30:06] test.py(124) : tester_params{'use_cuda': True, 'cuda_device_num': 0, 'model_load': {'path': '../Pretrained', 'epoch': 10000}, 'test_episodes': 1000, 'test_batch_size': 25, 'augmentation_enable': True, 'aug_factor': 8, 'aug_batch_size': 25, 'test_set_path': '../Instances/TestingDistributions/vrp_cluster50_10000.pkl', 'test_set_opt_sol_path': '../Instances/Size_Distribution/hgs/cvrp200_rotationoffset0n1000-hgs.pkl'}
+[2024-09-06 16:30:06] test.py(124) : fine_tune_params{'enable': False, 'fine_tune_episodes': 1000, 'k': 10, 'fine_tune_batch_size': 10, 'augmentation_enable': True, 'optimizer': {'lr': 1e-05, 'weight_decay': 1e-06}}
+[2024-09-06 16:30:06] test.py(124) : logger_params{'log_file': {'desc': 'test_cvrp100', 'filename': 'log.txt', 'filepath': './result/20240906_163003_test_cvrp100'}}
+[2024-09-06 16:30:08] VRPTester.py(75) : >> Model loaded from ../Pretrained/checkpoint-10000.pt
+[2024-09-06 16:30:10] VRPTester.py(142) : episode  25/1000, Elapsed[0.03m], Remain[1.06m], score:5.078, aug_score:4.998
+[2024-09-06 16:30:11] VRPTester.py(142) : episode  50/1000, Elapsed[0.05m], Remain[0.95m], score:5.235, aug_score:5.145
+[2024-09-06 16:30:13] VRPTester.py(142) : episode  75/1000, Elapsed[0.07m], Remain[0.90m], score:5.430, aug_score:5.356
+[2024-09-06 16:30:14] VRPTester.py(142) : episode 100/1000, Elapsed[0.10m], Remain[0.86m], score:5.656, aug_score:5.577
+[2024-09-06 16:30:15] VRPTester.py(142) : episode 125/1000, Elapsed[0.12m], Remain[0.83m], score:5.617, aug_score:5.557
+[2024-09-06 16:30:17] VRPTester.py(142) : episode 150/1000, Elapsed[0.14m], Remain[0.80m], score:4.937, aug_score:4.864
+[2024-09-06 16:30:18] VRPTester.py(142) : episode 175/1000, Elapsed[0.17m], Remain[0.79m], score:5.368, aug_score:5.260
+[2024-09-06 16:30:19] VRPTester.py(142) : episode 200/1000, Elapsed[0.19m], Remain[0.75m], score:5.698, aug_score:5.612
+[2024-09-06 16:30:21] VRPTester.py(142) : episode 225/1000, Elapsed[0.21m], Remain[0.73m], score:5.592, aug_score:5.515
+[2024-09-06 16:30:22] VRPTester.py(142) : episode 250/1000, Elapsed[0.23m], Remain[0.70m], score:5.376, aug_score:5.304
+[2024-09-06 16:30:23] VRPTester.py(142) : episode 275/1000, Elapsed[0.26m], Remain[0.68m], score:5.189, aug_score:5.129
+[2024-09-06 16:30:25] VRPTester.py(142) : episode 300/1000, Elapsed[0.28m], Remain[0.65m], score:5.364, aug_score:5.310
+[2024-09-06 16:30:26] VRPTester.py(142) : episode 325/1000, Elapsed[0.30m], Remain[0.62m], score:5.915, aug_score:5.833
+[2024-09-06 16:30:27] VRPTester.py(142) : episode 350/1000, Elapsed[0.32m], Remain[0.60m], score:4.913, aug_score:4.831
+[2024-09-06 16:30:29] VRPTester.py(142) : episode 375/1000, Elapsed[0.35m], Remain[0.58m], score:5.411, aug_score:5.342
+[2024-09-06 16:30:30] VRPTester.py(142) : episode 400/1000, Elapsed[0.37m], Remain[0.55m], score:5.464, aug_score:5.389
+[2024-09-06 16:30:32] VRPTester.py(142) : episode 425/1000, Elapsed[0.39m], Remain[0.53m], score:5.143, aug_score:5.082
+[2024-09-06 16:30:33] VRPTester.py(142) : episode 450/1000, Elapsed[0.41m], Remain[0.51m], score:5.443, aug_score:5.363
+[2024-09-06 16:30:34] VRPTester.py(142) : episode 475/1000, Elapsed[0.44m], Remain[0.48m], score:5.657, aug_score:5.560
+[2024-09-06 16:30:36] VRPTester.py(142) : episode 500/1000, Elapsed[0.46m], Remain[0.46m], score:5.384, aug_score:5.329
+[2024-09-06 16:30:37] VRPTester.py(142) : episode 525/1000, Elapsed[0.48m], Remain[0.44m], score:5.256, aug_score:5.181
+[2024-09-06 16:30:39] VRPTester.py(142) : episode 550/1000, Elapsed[0.51m], Remain[0.41m], score:5.153, aug_score:5.071
+[2024-09-06 16:30:40] VRPTester.py(142) : episode 575/1000, Elapsed[0.53m], Remain[0.39m], score:5.370, aug_score:5.301
